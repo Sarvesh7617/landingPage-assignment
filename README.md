@@ -48,4 +48,4 @@ npm run dev
 
 
 ## 🔗 Live Website
-👉 [Click here to visit my assignment](https://landing-page-assignment-summunat.vercel.ap)p
+👉 [Click here to visit my assignment](https://landing-page-assignment-summunat.vercel.app)
