@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
 
-const HeroSectoin=()=>{
+const HeroSection=()=>{
     const navigate=useNavigate();
     return (
         <section className="text-center py-35 px-6 bg-gradient-to-b from-blue-50 to-white">
@@ -23,4 +23,4 @@ const HeroSectoin=()=>{
 
 
 
-export default HeroSectoin;
+export default HeroSection;
