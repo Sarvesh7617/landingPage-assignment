@@ -45,7 +45,60 @@ npm install
 ```bash
 npm run dev
 ```
-
+----
 
 ## 🔗 Live Website
 👉 [Click here to visit my assignment](https://landing-page-assignment-summunat.vercel.app)
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── HeroSection.jsx
+│   ├── WhyUs.jsx
+│   ├── Features.jsx
+│   ├── Testimonials.jsx
+│   ├── ContactUs.jsx
+│   └── Footer.jsx
+│
+├── pages/
+│   └── Home.jsx
+│
+├── App.jsx
+├── main.jsx
+└── styles/index.css
+```
+
+---
+
+## 🌐 Routing
+
+#### This project uses React Router for navigation:
+
+- / → HeroSection
+
+- /why-us → WhyUs
+
+- /testimonials → Testimonials
+
+- /apply → ContactUs
+
+---
+## ✨ Features
+
+- Responsive design (mobile, tablet, desktop)
+
+- Smooth navigation with React Router
+
+- Modular, reusable components
+
+- Professional UI with Tailwind CSS
+
+---
+## ⚠️ Important Notes
+
+- **Testimonials are demo only** (not real student reviews).
