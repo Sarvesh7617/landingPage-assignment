@@ -24,6 +24,7 @@ A single‑page application built with **React**, **Tailwind CSS**, and **React 
 - React Router – client‑side routing
 - Tailwind CSS – utility‑first styling
 - React Icons – icons for features
+- Hamburger‑react – animated hamburger menu component
 
 ---
 ## 📦 Installation & Setup
@@ -55,19 +56,26 @@ npm run dev
 ## 📂 Project Structure
 
 ```bash
+project_dir
+│
 src/
 ├── components/
 │   ├── Navbar.jsx
 │   ├── HeroSection.jsx
-│   ├── WhyUs.jsx
 │   ├── Features.jsx
 │   ├── Testimonials.jsx
 │   ├── ContactUs.jsx
+│   ├── ThemBtn.jsx
+│   ├── UseContext.jsx
+│   ├── Particle.jsx
 │   └── Footer.jsx
 │
-├── pages/
-│   └── Home.jsx
 │
+├── App.css  
+├── index.css
+├──
+├──
+├──
 ├── App.jsx
 ├── main.jsx
 └── styles/index.css
@@ -81,7 +89,7 @@ src/
 
 - / → HeroSection
 
-- /why-us → WhyUs
+- /why-us → Features
 
 - /testimonials → Testimonials
 
@@ -97,6 +105,9 @@ src/
 - Modular, reusable components
 
 - Professional UI with Tailwind CSS
+
+- Dark mode support for better user experience
+
 
 ---
 ## ⚠️ Important Notes
