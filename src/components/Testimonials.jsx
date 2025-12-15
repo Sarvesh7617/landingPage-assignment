@@ -11,8 +11,8 @@ const Testimonials=()=>{
     ];
 
     return (
-        <section className="bg-gray-100 h-screen py-36 px-8">
-            <h2 className="text-3xl font-bold text-center text-gray-800">
+        <section className="h-screen bg-gray-100 dark:bg-black py-36 px-8">
+            <h2 className="text-3xl font-bold text-center text-gray-800 dark:text-white">
                 What Students Say
             </h2>
 
@@ -20,16 +20,16 @@ const Testimonials=()=>{
                 {testimonials.map((t) => (
                 <div
                     key={t.name}
-                    className="bg-white z-10 p-6 rounded-xl shadow hover:shadow-lg transition"
+                    className="bg-white dark:bg-gray-700 z-10 p-6 rounded-xl shadow hover:shadow-lg transition"
                 >
-                    <p className="text-gray-700 italic">“{t.text}”</p>
-                    <h4 className="mt-4 font-semibold text-gray-900">— {t.name}</h4>
+                    <p className="text-gray-700 dark:text-gray-400 italic">“{t.text}”</p>
+                    <h4 className="mt-4 font-semibold text-gray-900 dark:text-gray-300">— {t.name}</h4>
                 </div>
                 ))}
             </div>
 
             {/* Disclaimer */}
-            <p className="text-center text-sm text-gray-500 mt-6">
+            <p className="text-center text-sm text-gray-500 dark:dark:text-gray-300 mt-6">
                 *Testimonials are for demonstration purposes only.
             </p>
         </section>

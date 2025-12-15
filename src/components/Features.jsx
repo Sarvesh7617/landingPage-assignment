@@ -22,17 +22,17 @@ const features = [
 
 const Features=()=>{
   return (
-    <section className="grid md:grid-cols-3 gap-8 px-10 py-45">
+    <section className="grid md:grid-cols-3 gap-8 px-10 py-45 dark:bg-black bg-white">
       {features.map((feature) => (
         <div
           key={feature.title}
-          className="p-8 z-10 bg-gray-100 shadow rounded-xl text-center hover:shadow-lg transition"
+          className="p-8 z-10 bg-gray-100 dark:bg-gray-800 shadow rounded-xl text-center hover:shadow-lg transition"
         >
           <feature.icon className="h-12 w-12 mx-auto text-blue-600"/>
-          <h3 className="text-xl font-semibold text-gray-800 mt-4">
+          <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-300 mt-4">
             {feature.title}
           </h3>
-          <p className="text-gray-600 mt-2">{feature.desc}</p>
+          <p className="text-gray-600 dark:text-gray-400 mt-2">{feature.desc}</p>
         </div>
       ))}
     </section>

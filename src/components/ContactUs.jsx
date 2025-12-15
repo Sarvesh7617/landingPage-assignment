@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 const Contact=()=>{
     const navigate=useNavigate();
     return (
-        <section className="h-screen bg-blue-600 text-white text-center py-45 px-6">
+        <section className="h-screen bg-blue-600 dark:bg-gray-600 text-white text-center py-45 px-6">
             <h2 className="text-3xl font-bold">
                 Ready to Start Your Career Journey?
             </h2>

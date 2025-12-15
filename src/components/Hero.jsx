@@ -4,11 +4,11 @@ import { useNavigate } from "react-router-dom";
 const HeroSection=()=>{
     const navigate=useNavigate();
     return (
-        <section className="text-center py-35 px-6 bg-gradient-to-b from-blue-50 to-white">
-            <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
+        <section className="text-center py-35 px-6 bg-gradient-to-b from-blue-50 to-white dark:from-black dark:to-gray-900 h-screen">
+            <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight">
                 Empowering Students With Real‑World Opportunities
             </h2>
-            <p className="mt-4 text-gray-600 max-w-2xl mx-auto text-lg">
+            <p className="mt-4 text-gray-600 dark:text-gray-400 max-w-2xl mx-auto text-lg">
                 Gain hands‑on experience by working on live industry projects guided by expert mentors.
             </p>
             <button
